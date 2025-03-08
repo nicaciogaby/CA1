@@ -20,9 +20,19 @@ namespace CA1
     /// </summary>
     public partial class MainWindow : Window
     {
+       
+        private List<Ward> wards;
+        private string dataFilePath = "";
+        private string imageFolderPath = ""; 
+
+        public enum BloodType { A, B, AB, O }
         public MainWindow()
         {
             InitializeComponent();
+          
+        }
+
+       
         }
     }
-}
+
